@@ -1,2 +1,8 @@
-## TODO
-- [ ] Check why URLs are not being saved by the parser
+# Installation
+To install the package, just run the following command:
+```bash
+pip install whotfis-py
+```
+# Usage
+```python
+
