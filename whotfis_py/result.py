@@ -7,6 +7,13 @@ class whois_result(object):
 
 
 class radb_result(whois_result):
+
+    def router(self):
+        return self.route.split("/")[0] if self.route is not None else None
+
+    def mask(self):
+        return self.route.split("/")[1] if self.route is not None else None
+
     def __init__(self,
                  route=None,
                  origin=None,
@@ -19,9 +26,6 @@ class radb_result(whois_result):
                  rpki_ov_states=None):
         super().__init__()
         self.route = route
-
-        self.router = route.split("/")[0] if route is not None else None
-        self.mask = route.split("/")[1] if route is not None else None
 
         self.origin = origin
         self.descr = descr

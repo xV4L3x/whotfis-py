@@ -4,7 +4,7 @@ ARIN = "-a"
 APNIC = "-A"
 ABUSE = "-b"
 AFRINIC = "-f"
-USMILITRY = "-g"
+USMILITARY = "-g"
 INTERNIC = "-i"
 IANA = "-I"
 KRNIC = "-k"
@@ -55,7 +55,7 @@ errors = {
     APNIC: [],
     ABUSE: [],
     AFRINIC: [],
-    USMILITRY: [],
+    USMILITARY: [],
     INTERNIC: [],
     IANA: [],
     KRNIC: [],
@@ -72,7 +72,7 @@ infos = {
     APNIC: "",
     ABUSE: "",
     AFRINIC: "",
-    USMILITRY: "",
+    USMILITARY: "",
     INTERNIC: "",
     IANA: "",
     KRNIC: "",
@@ -81,13 +81,13 @@ infos = {
 
 appendable = {
     LACNIC: ["Comment"],
-    RADB: [],
+    RADB: ["remarks"],
     RIPE: ["remarks"],
     ARIN: [],
     APNIC: [],
     ABUSE: [],
     AFRINIC: [],
-    USMILITRY: [],
+    USMILITARY: [],
     INTERNIC: [],
     IANA: [],
     KRNIC: [],
