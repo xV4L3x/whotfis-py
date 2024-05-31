@@ -1,4 +1,4 @@
-import result
+from . import result
 
 ARIN = "-a"
 APNIC = "-A"

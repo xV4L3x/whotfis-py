@@ -1,6 +1,9 @@
 import os
-import registries
-from parser import parse
+from . import registries
+from .parser import parse
+
+__version__ = "0.0.5"
+__author__ = "Valerio Pio De Nicola"
 
 
 def lookup(query, registry=registries.RADB, custom_server=""):

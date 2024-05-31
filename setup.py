@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.3'
+VERSION = '0.0.5'
 DESCRIPTION = "Simple package to interact with the whois command line tool"
 
 setup(
@@ -9,9 +9,11 @@ setup(
     author="Valerio Pio De Nicola",
     author_email="valeriopio02@gmail.com",
     description=DESCRIPTION,
-    long_description=open('whotfis-py/README.md').read(),
+    long_description=open('whotfis_py/README.md').read(),
     long_description_content_type='text/markdown',
-    packages=find_packages(),
+    url="https://github.com/xV4L3x/whotfis-py",
+    license="Apache 2",
+    packages=['whotfis_py'],
     install_requires=[],
     keywords=['python', 'whois', 'whois command line', 'whois python', 'whois python package'],
     classifiers=[

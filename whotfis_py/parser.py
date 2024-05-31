@@ -1,4 +1,4 @@
-import registries
+from . import registries
 
 
 def print_error(error, registry):
