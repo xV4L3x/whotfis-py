@@ -14,7 +14,7 @@ def lookup(query, registry=registries.RADB, custom_server=""):
     command = "whois {} {} {}".format(registry, custom_server, query)
     results = os.popen(command).read()
     parsed_results = parse(results, registry)
-    return parsed_results[0]
+    return parsed_results
 
 
 if __name__ == "__main__":

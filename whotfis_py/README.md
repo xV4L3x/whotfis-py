@@ -1,3 +1,11 @@
+# Avaiability
+| Platform | Status               |
+|----------|----------------------|
+| MacOS    | Supported ✅          |
+| Linux    | In Progress 🚧       |
+| Windows  | Not supported yet  ❌ |
+
+
 # Installation
 To install the package, just run the following command:
 ```bash

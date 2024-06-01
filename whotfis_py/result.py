@@ -14,6 +14,12 @@ class radb_result(whois_result):
     def mask(self):
         return self.route.split("/")[1] if self.route is not None else None
 
+    def dict(self):
+        parent_dict = super().dict()
+        parent_dict["router"] = self.router()
+        parent_dict["mask"] = self.mask()
+        return parent_dict
+
     def __init__(self,
                  route=None,
                  origin=None,
